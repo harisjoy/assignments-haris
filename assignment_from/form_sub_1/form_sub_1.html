@@ -1,0 +1,52 @@
+<!Doctype html>
+    <head>
+        <title>Form submition type 1</title>   
+        <link rel="stylesheet"href="form_sub_1.css">
+        <script src="form_sub_1.js" defer></script> 
+    </head>
+  <body>
+   <div class="bigdiv">
+    <form action="second.html" method="post" enctype="application/x-www-form-urlencoded"  onsubmit='return validate()'>
+     <h1>Registration Form</h1>
+     <hr><br>
+      <label for="name" id="heading">Fullname</label><br>
+      <input id="textcheck" type="text" name="fullname" id="fullname"/>
+      <label class="blocklabel" for="address" id="heading">Address</label>
+       <textarea class="adressstyle" id ="addresscheckcheck" rows="5" cols="15"name="address"id="address" ></textarea>
+          
+       
+       <label class="blocklabel" for="hobbies" id="heading">Hobbies</label>
+
+       <label for="Painting">Painting</label>
+       <input type="checkbox"name="hobbies[]"id="hobbies[]" value="painting"/>
+       <label for="dancing">Dancing</label>
+      <input  type="checkbox"name="hobbies[]"id="hobbies[]" value="Dancing"/>
+      <label for="Music">Music</label>
+       <input type="checkbox"name="hobbies[]"id="hobbies[]" value="Music"/>
+       </body>
+       <label class="blocklabel" for="Gender" id="heading">Gender</label>
+       <label  for="male">Male</label>
+       <input  type="radio"value="male" name="gender" id="gender">
+       <label for="female">Female</label>
+       <input  type="radio"value="female" name="gender"id="gender">
+       <label class="blocklabel" for="age" id="heading">Age</label>
+       <select  id="age" name="age">
+        <option value="" checked>select age group</option>
+         <option value="00+">0-10</option>
+         <option value="10+">10-20</option>
+         <option value="20+">20-30</option>
+         <option value="30+">30-40</option>
+       </select>
+       <label  class="blocklabel" for="password" id="heading">Password</label>
+       <div>
+     <input id="passswordcheck" type="password"name="password" id="password"/>
+       </div><br>
+       <div>
+       <input type="submit" value="submit" id="submit">
+       <input type="reset"/>
+     </div>
+       <p class="pstyle" id="validationwrite" style="display:none">Validation</p>
+      </form>
+    </div>
+      </body>
+       </html>

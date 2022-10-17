@@ -1,0 +1,32 @@
+{
+    font-family:Georgia, 'Times New Roman', Times, serif
+   }
+   .bigdiv
+   {
+        margin:50px;
+        padding:50px;
+        width:50%;
+        border-radius: 30px;
+       background-color:rgb(116, 231, 175);
+   }
+
+   #heading{
+    font-size: larger;
+    
+   }
+   .blocklabel
+   {
+       display:block;
+       margin-top:20px;
+   }
+   .adressstyle
+   {
+       margin-left:20px;
+       margin-top:30px;
+   }
+   .pstyle
+   {
+       color:rgb(190, 11, 11);
+       font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif;
+   }
