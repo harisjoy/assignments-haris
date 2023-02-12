@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Registration
+        link(href='Registration.css' rel='stylesheet')
+        link(href='login.css' rel='stylesheet')
+    body
+        div.missingfield 
+            if(message2)
+                h3 #{message2}  
+        div.userexist 
+            if(message1)
+                h3 #{message1}     
+        form(action='/signup' method='post')
+            .contactpage
+                p Registration Form
+                .inputform
+                    label.inputblock(for='email') Email
+                    input#email(type='email'  name='email')
+                .inputform
+                    label.inputblock(for='password') Password
+                    input#password(type='password' name='password')
+                .inputform
+                    label.inputblock(for='name') Name
+                    input#name(type='text' name='name')
+                .inputform
+                    label.inputblock(for='address') Address
+                    textarea#address(rows='2' cols='5' name='address')      
+                .inputform
+                    label.inputblock(for='phoneno') PhoneNo
+                    input#phoneno(type='tel' name='phoneno')
+                .inputform
+                    input#submit.submitbutton.inputblock(type='Submit' value='Submit')
+                

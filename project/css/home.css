@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.signup
+{
+    text-decoration: none;
+    background-color: rgb(4, 177, 71);
+    margin-top: 20px;
+    padding:10px;
+    color:white;
+    margin-left:45%;
+    border-radius:10px;
+    float: left;
+    
+}
+a:hover{
+    background-color: rgb(0, 255, 0);
+    color:rgb(10, 10, 10);
+}
+.login
+{
+    text-decoration: none;
+    background-color: rgb(4, 177, 71);
+    margin-top: 20px;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    float: left;
+    
+}
+.signup
+{
+    margin-right:30px;
+
+}
+
+.containerarticle 
+{
+    margin-left:25%;
+    margin-right: 25%;
+    border:2px solid rgb(49, 230, 13);
+    border-radius: 10px;
+    width:auto;
+    height:fit-content;
+    
+
+}
+
+.containerarticle h2 {
+    margin-top: 20px;
+    padding: 50px;
+}
+
+
+.containerarticle li
+{
+    margin-top:20px;
+    padding:10px;
+}
+
+.containerarticle a
+{
+    margin-top:10px;
+    margin-left:100px;
+    text-decoration: none;
+    background-color: aqua;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:40px;
+}
+.containerarticle a:hover
+{
+    border:2px solid rgb(17, 255, 0);
+    border-radius:10px;
+   
+    background-color:rgb(255, 0, 4);
+    color:white;
+    padding:10px;
+    text-decoration: none;
+
+
+}

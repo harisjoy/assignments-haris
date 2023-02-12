@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Home
+        link(href='home.css' rel='stylesheet')
+    body 
+        h1 welcome
+        a.signup(href = '/signup') Signup
+        a.login(href = 'login') login     
+        br
+        br
+        div 
+        .containerarticle 
+            .style 
+                h2 SHOW  ARTICLES
+                    each val in topic
+                        ul 
+                            li
+                                a(href=`/gohome/${val._id}/${val.subject}`) #{val.subject}

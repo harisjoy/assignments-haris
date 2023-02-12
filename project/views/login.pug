@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Loginform
+        link(href='registration.css' rel='stylesheet')
+        link(href='login.css' rel='stylesheet')
+    body 
+        if(message)
+            h4(style = "color:red") #{message}
+        form(action='/login' method='post')
+            .contactpage
+                p Login
+                .inputform
+                    label.inputblock(for='email') Email
+                    input#email(type='email'  name='email')
+                    br
+                    br
+                .inputform
+                    label.inputblock(for='password') Password
+                    input#password(type='password' name='password')
+                    br
+                    br
+                .inputform
+                    input#submit.submitbutton.inputblock(type='Submit' value='Submit')

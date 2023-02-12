@@ -1,0 +1,23 @@
+body{
+    border:2px solid rgb(49, 230, 13);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+form{
+    text-align: center;
+}
+
+.contactpage
+{
+    
+    background-color:rgb(197, 230, 173);
+    height:90%;
+    width:40%;
+    margin:auto;
+    padding:40px;
+
+}
